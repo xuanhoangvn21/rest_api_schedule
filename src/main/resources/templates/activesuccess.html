@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kích ho?t thành công</title>
+</head>
+<body>
+    <h1>Kích ho?t thành công!</h1>
+    <p>tài kho?n c?a b?n ð? ðý?c kích ho?t.</p>
+    <button id="returnButton">quay l?i ?ng d?ng</button>
+
+    <script>
+        document.getElementById("returnButton").addEventListener("click", function() {
+            // Redirect back to the React Native app using deep linking
+            window.location.href = "yourapp://return"; // Thay "yourapp" b?ng deep link scheme c?a ?ng d?ng React Native
+        });
+    </script>
+</body>
+</html>
